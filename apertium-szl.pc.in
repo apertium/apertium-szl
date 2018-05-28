@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-szl
+srcdir=@datarootdir@/apertium/apertium-szl
+
+Name: apertium-szl
+Description: Finite-state morphological transducer and constraint grammar for Silesian 
+Version: @VERSION@
+

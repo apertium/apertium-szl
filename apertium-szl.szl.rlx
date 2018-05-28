@@ -1,0 +1,32 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+SOFT-DELIMITERS = "<,>";
+LIST NOUN = n;
+LIST ADJ = adj;
+LIST ADV = adv;
+LIST VERB = vblex;
+LIST MIEC = vbhaver;
+LIST BYC = vbser;
+LIST MOC = vaux;
+LIST DET = det;
+LIST PRN = prn;
+LIST PREP = pr;
+LIST MARYNARKA = "wojynny";
+
+SETS
+
+LIST BOS = (>>>) (sent);
+LIST EOS = (<<<) (sent);
+
+LIST N = n ; 
+
+SECTION
+
+SUBSTITUTE ("szaket" n) ("marina" n S1) NOUN;
+SELECT (x);
+
+# Resources:
+# http://visl.sdu.dk/cg3.html
+# http://groups.google.com/group/constraint-grammar
+# http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
+# http://wiki.apertium.org/wiki/Constraint_Grammar
+# http://wiki.apertium.org/wiki/Apertium_and_Constraint_Grammar
