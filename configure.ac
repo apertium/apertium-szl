@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Silesian], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-szl], [http://wiki.apertium.org/wiki/Apertium-szl])
+AC_INIT([Apertium Silesian], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-szl], [https://wiki.apertium.org/wiki/Apertium-szl])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
